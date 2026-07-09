@@ -112,7 +112,6 @@ export default function Contact() {
             <div className="flex justify-center pt-2">
               <MagneticButton
                 as="button"
-                type="submit"
                 className="border border-accent bg-accent/10 px-8 text-accent hover:bg-accent/20"
               >
                 {status === "sending" ? "Sending..." : "Submit"}
