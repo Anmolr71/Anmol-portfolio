@@ -4,7 +4,8 @@ import { useState } from "react";
 import RevealOnScroll from "./RevealOnScroll";
 import MagneticButton from "./MagneticButton";
 
-const FORM_ENDPOINT = "https://formspree.io/f/mjgqdadq";
+const FORM_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ?? "";
+
 export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
@@ -113,7 +114,7 @@ export default function Contact() {
                 as="button"
                 className="border border-accent bg-accent/10 px-8 text-accent hover:bg-accent/20"
               >
-                {status === "sending" ? "Sending..." : "Send Message"}
+                {status === "sending" ? "Sending..." : "Submit"}
               </MagneticButton>
             </div>
           </form>
