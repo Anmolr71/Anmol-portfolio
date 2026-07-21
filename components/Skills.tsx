@@ -9,7 +9,7 @@ export default function Skills() {
     <section id="skills" className="py-24 md:py-32 scroll-mt-20">
       <RevealOnScroll>
         <h2 className="section-heading">
-          <span className="num">02.</span> Skills
+          <span className="num"></span> Skills
         </h2>
       </RevealOnScroll>
 

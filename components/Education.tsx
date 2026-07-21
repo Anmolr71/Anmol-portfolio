@@ -6,7 +6,7 @@ export default function Education() {
     <section id="education" className="py-24 md:py-32 scroll-mt-20">
       <RevealOnScroll>
         <h2 className="section-heading">
-          <span className="num">05.</span> Education
+          <span className="num"></span> Education
         </h2>
       </RevealOnScroll>
 

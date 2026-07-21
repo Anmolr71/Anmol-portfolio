@@ -32,7 +32,7 @@ export const skillGroups = [
   },
   {
     title: "Python Libraries",
-    items: ["Pandas", "NumPy", "Seaborn", "Scikit-learn"],
+    items: ["Pandas", "NumPy", "Seaborn", "Scikit-learn","Matplotlib","BeautifulSoup"],
   },
   {
     title: "Databases",

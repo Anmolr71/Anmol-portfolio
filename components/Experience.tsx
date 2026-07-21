@@ -6,7 +6,7 @@ export default function Experience() {
     <section id="experience" className="py-24 md:py-32 scroll-mt-20">
       <RevealOnScroll>
         <h2 className="section-heading">
-          <span className="num">04.</span> Experience
+          <span className="num"></span> Experience
         </h2>
       </RevealOnScroll>
 

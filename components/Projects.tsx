@@ -10,7 +10,7 @@ export default function Projects() {
     <section id="projects" className="py-24 md:py-32 scroll-mt-20">
       <RevealOnScroll>
         <h2 className="section-heading">
-          <span className="num">03.</span> Featured Projects
+          <span className="num"></span> Featured Projects
         </h2>
       </RevealOnScroll>
 

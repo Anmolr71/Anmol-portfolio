@@ -10,7 +10,7 @@ export default function Certificates() {
     <section id="certificates" className="py-24 md:py-32 scroll-mt-20">
       <RevealOnScroll>
         <h2 className="section-heading">
-          <span className="num">06.</span> Certificates
+          <span className="num"></span> Certificates
         </h2>
       </RevealOnScroll>
 

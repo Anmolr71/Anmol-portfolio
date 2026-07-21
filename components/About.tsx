@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="py-24 md:py-32 scroll-mt-20">
       <RevealOnScroll>
         <h2 className="section-heading">
-          <span className="num">01.</span> About Me
+          <span className="num"></span> About Me
         </h2>
       </RevealOnScroll>
 
