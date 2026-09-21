@@ -46,18 +46,18 @@ export const skillGroups = [
 
 export const projects = [
   {
-    title: "Amazon Sales Dashboard",
+    title: "Blinkit Sales Dashboard",
     description:
-      "An interactive Power BI dashboard analyzing Amazon sales performance across categories, regions, and time periods, surfacing revenue trends and top-performing SKUs for merchandising decisions.",
+      "An interactive Power BI dashboard analyzing Blinkit sales performance across categories, regions, and time periods, surfacing revenue trends and top-performing SKUs for merchandising decisions.",
     stack: ["Power BI", "SQL", "Excel"],
     github: "#",
     demo: "#",
     caseStudy: "#",
   },
   {
-    title: "HR Analytics Dashboard",
+    title: "Seattle Airbnb Dashboard",
     description:
-      "An employee attrition and workforce analytics dashboard that tracks headcount, tenure, and attrition drivers, helping HR leadership identify retention risks before they become resignations.",
+      "A comprehensive analysis of Seattle's Airbnb market, examining pricing trends, occupancy rates, and neighborhood performance to inform investment and hosting strategies.",
     stack: ["Power BI", "Python", "Excel"],
     github: "#",
     demo: "#",
